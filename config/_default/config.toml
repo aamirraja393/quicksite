@@ -2,15 +2,32 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://jpanther.github.io/congo/docs/getting-started/
 
+# -- Site Configuration --
 theme = "congo"
-baseURL = "https://your_domain.com/"
+
+baseURL = "https://aamirraja.com/"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
 summaryLength = 0
 
+# Pagination
 [pagination]
   pagerSize = 10
 
+# Output formats (same as fjeremic)
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+# Taxonomies (same as fjeremic)
+[taxonomies]
+  tag = "tags"
+
+# Frontmatter settings
+[frontmatter]
+  date = [":filename", ":default", ":publishDate"]
+
+[homepage]
+  showRecent = true
+  mainSections = ["blog"]
+
