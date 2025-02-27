@@ -1,9 +1,9 @@
 ---
-title: The Importance of a Placement Year for Data Science Success
-author: Aamir Raja
-date: 2025-02-09
-layout: post
-tags: [internship, data science, career advice, UK, University]
+title: "The Importance of a Placement Year for Data Science Success"
+author: "Aamir Raja"
+date: "2025-02-09"
+layout: "post"
+tags: ["internship", "data science", "career advice", "UK", "University"]
 ---
 
 -------
