@@ -52,7 +52,7 @@ mainSections = ["blog"]
 
 [list]
   showBreadcrumbs = true
-  showSummary = true
+  showSummary = false
   showTableOfContents = true
   groupByYear = true
 
